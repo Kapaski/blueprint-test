@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.github.philippn.osgi-blueprint</groupId>
+	<artifactId>pom</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>OSGi Blueprint</name>
+	<modules>
+		<module>greeting</module>
+		<module>distribution</module>
+	</modules>
+
+	<repositories>
+		<repository>
+			<id>central</id>
+			<name>Maven Central Repository</name>
+			<url>http://repo1.maven.org/maven2</url>
+		</repository>
+		<repository>
+			<id>zodiac-repository</id>
+			<name>Zodiac Release Repository</name>
+			<url>http://zodiac.springsource.com/maven/bundles/release</url>
+		</repository>
+	</repositories>
+</project>
