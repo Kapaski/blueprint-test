@@ -1,13 +1,9 @@
-/**
- * 
- */
 package com.github.philippn.blueprint.impl;
 
 import com.github.philippn.blueprint.IGreetingService;
 
 /**
  * @author Philipp
- *
  */
 public class GreetingServiceImpl implements IGreetingService {
 
@@ -17,5 +13,4 @@ public class GreetingServiceImpl implements IGreetingService {
 	public String greet(String name) {
 		return "Hello " + name + "!";
 	}
-
 }
