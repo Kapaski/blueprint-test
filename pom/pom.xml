@@ -7,9 +7,12 @@
 	<packaging>pom</packaging>
 	<name>OSGi Blueprint Test</name>
 
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
 	<modules>
 		<module>greeting</module>
-		<module>ear</module>
 		<module>distribution</module>
 	</modules>
 
@@ -25,7 +28,4 @@
 			<url>http://zodiac.springsource.com/maven/bundles/release</url>
 		</repository>
 	</repositories>
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
 </project>
