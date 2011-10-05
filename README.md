@@ -18,6 +18,6 @@ you will need to deploy Gemini Blueprint along with the greetings.jar.
 Application Server Notes
 ------------------------
 
-JBoss AS 7: On AS 7, you will need to enable the OSGi subsystem first. 
+JBoss AS 7: On AS 7, you will need to configure the OSGi subsystem first. 
 In the XML configuration file, set the org.osgi.framework.startlevel.beginning to 2. 
 Then, set the startlevel of org.jboss.osgi.blueprint to 2 as well. Now you are set!
