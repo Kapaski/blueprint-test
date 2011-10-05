@@ -22,9 +22,10 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.eclipse.gemini.blueprint</groupId>
-			<artifactId>gemini-blueprint-extender</artifactId>
-			<version>1.0.0.RELEASE</version>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.5.10</version>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 </project>
