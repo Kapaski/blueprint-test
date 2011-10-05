@@ -6,18 +6,20 @@ This project contains a light-weight sample project for working with OSGi Bluepr
 Contents
 --------
 
-greetings: The greetings project contains the source for building a simple OSGi-bundle 
+greeting: The greeting project contains the source for building a simple OSGi bundle 
 that exports a single service (IGreetingService).
 
 distribution: The distribution project is used for building a single ZIP file 
-containing the greetings bundle as well as Eclipse Gemini Blueprint.
+containing the greeting bundle as well as the Eclipse Gemini Blueprint bundles.
 
-If your OSGi-enabled application server does not come with OSGi blueprint support out of the box, 
-you will need to deploy Gemini Blueprint along with the greetings.jar.
+If your application server does not come with OSGi blueprint support out of the box, 
+you will need to deploy the Gemini Blueprint bundles along with the greeting bundle.
 
 Application Server Notes
 ------------------------
 
-JBoss AS 7: On AS 7, you will need to configure the OSGi subsystem first. 
-In the XML configuration file, set the org.osgi.framework.startlevel.beginning to 2. 
-Then, set the startlevel of org.jboss.osgi.blueprint to 2 as well. Now you are set!
+JBoss AS 7: AS 7 comes with Blueprint support out-of-the-box, but you will need 
+to configure the OSGi subsystem first. To do so, locate the XML configuration file 
+and go to the OSGi subsystem (hint: search for "urn:jboss:domain:osgi:1.0").
+In there, set the org.osgi.framework.startlevel.beginning to 2 and the startlevel of 
+org.jboss.osgi.blueprint to 2 as well. Now you are ready to deploy the greeting bundle!
