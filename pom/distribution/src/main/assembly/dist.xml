@@ -7,6 +7,16 @@
 		<dependencySet>
 			<outputDirectory>/</outputDirectory>
 			<scope>runtime</scope>
+			<includes>
+				<include>com.github.philippn.osgi-blueprint:greeting</include>
+			</includes>
+		</dependencySet>
+		<dependencySet>
+			<outputDirectory>/optional/</outputDirectory>
+			<scope>runtime</scope>
+			<excludes>
+				<exclude>com.github.philippn.osgi-blueprint:greeting</exclude>
+			</excludes>
 		</dependencySet>
 	</dependencySets>
 </assembly>
