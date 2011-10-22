@@ -1,7 +1,7 @@
 About
 =====
 
-This project contains a light-weight sample project for working with OSGi Blueprint Services.
+This repository contains a light-weight sample project for working with OSGi Blueprint Services.
 
 Contents
 --------
